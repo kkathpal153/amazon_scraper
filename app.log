@@ -1,0 +1,55 @@
+2021-06-01 14:53:04,435  requirements.py   INFO  b"WARNING: You are using pip version 19.3.1; however, version 21.1.2 is available.\r\nYou should consider upgrading via the 'python -m pip install --upgrade pip' command.\r\n"
+2021-06-01 14:53:04,914  linker.py   INFO  Valid URL https://www.amazon.ca/Apple-iPhone-Max-Smartphone-Refurbished/dp/B07K8RNW7H/ref=sr_1_3?dchild=1&keywords=iphone&qid=1622517156&sr=8-3
+2021-06-01 14:53:04,914  linker.py   INFO  Valid URL https://www.amazon.ca/Apple-iPhone-XR-Fully-Unlocked/dp/B07P978C2R/ref=sr_1_13?dchild=1&keywords=iphone&qid=1622517156&sr=8-13
+2021-06-01 14:53:04,919  urllib3.connectionpool  DEBUG  Starting new HTTPS connection (1): www.amazon.ca:443
+2021-06-01 14:53:05,357  urllib3.connectionpool  DEBUG  https://www.amazon.ca:443 "GET /Apple-iPhone-Max-Smartphone-Refurbished/dp/B07K8RNW7H/ref=sr_1_3?dchild=1&keywords=iphone&qid=1622517156&sr=8-3 HTTP/1.1" 200 None
+2021-06-01 14:53:06,625  scraper.py   INFO  Apple iPhone Xs Max, 64GB, Space Gray - Fully Unlocked (Renewed)
+2021-06-01 14:53:06,631  scraper.py   INFO  $609.99
+2021-06-01 14:53:06,635  urllib3.connectionpool  DEBUG  Starting new HTTPS connection (1): www.amazon.ca:443
+2021-06-01 14:53:07,133  urllib3.connectionpool  DEBUG  https://www.amazon.ca:443 "GET /Apple-iPhone-XR-Fully-Unlocked/dp/B07P978C2R/ref=sr_1_13?dchild=1&keywords=iphone&qid=1622517156&sr=8-13 HTTP/1.1" 200 None
+2021-06-01 14:53:08,587  scraper.py   INFO  Apple iPhone XR, 64GB, White - Fully Unlocked (Renewed)
+2021-06-01 14:53:08,592  scraper.py   INFO  $499.99
+2021-06-01 14:53:40,671  requirements.py   INFO  b"WARNING: You are using pip version 19.3.1; however, version 21.1.2 is available.\r\nYou should consider upgrading via the 'python -m pip install --upgrade pip' command.\r\n"
+2021-06-01 14:53:41,074  linker.py   INFO  Valid URL https://www.amazon.ca/Apple-iPhone-Max-Smartphone-Refurbished/dp/B07K8RNW7H/ref=sr_1_3?dchild=1&keywords=iphone&qid=1622517156&sr=8-3
+2021-06-01 14:53:41,074  linker.py   INFO  Valid URL https://www.amazon.ca/Apple-iPhone-XR-Fully-Unlocked/dp/B07P978C2R/ref=sr_1_13?dchild=1&keywords=iphone&qid=1622517156&sr=8-13
+2021-06-01 14:53:41,078  urllib3.connectionpool  DEBUG  Starting new HTTPS connection (1): www.amazon.ca:443
+2021-06-01 14:53:41,566  urllib3.connectionpool  DEBUG  https://www.amazon.ca:443 "GET /Apple-iPhone-Max-Smartphone-Refurbished/dp/B07K8RNW7H/ref=sr_1_3?dchild=1&keywords=iphone&qid=1622517156&sr=8-3 HTTP/1.1" 200 None
+2021-06-01 14:53:42,812  scraper.py   INFO  Apple iPhone Xs Max, 64GB, Space Gray - Fully Unlocked (Renewed)
+2021-06-01 14:53:42,817  scraper.py   INFO  $609.99
+2021-06-01 14:53:42,819  urllib3.connectionpool  DEBUG  Starting new HTTPS connection (1): www.amazon.ca:443
+2021-06-01 14:53:43,300  urllib3.connectionpool  DEBUG  https://www.amazon.ca:443 "GET /Apple-iPhone-XR-Fully-Unlocked/dp/B07P978C2R/ref=sr_1_13?dchild=1&keywords=iphone&qid=1622517156&sr=8-13 HTTP/1.1" 200 None
+2021-06-01 14:53:44,760  scraper.py   INFO  Apple iPhone XR, 64GB, White - Fully Unlocked (Renewed)
+2021-06-01 14:53:44,765  scraper.py   INFO  $499.99
+2021-06-01 15:46:28,902  requirements.py  ERROR  b"ERROR: Could not find a version that satisfies the requirement pprint (from -r requirements/requirements.txt (line 4)) (from versions: none)\r\nERROR: No matching distribution found for pprint (from -r requirements/requirements.txt (line 4))\r\nWARNING: You are using pip version 19.3.1; however, version 21.1.2 is available.\r\nYou should consider upgrading via the 'python -m pip install --upgrade pip' command.\r\n"
+2021-06-01 15:46:29,406  linker.py   INFO  Valid URL https://www.amazon.ca/Apple-iPhone-Max-Smartphone-Refurbished/dp/B07K8RNW7H/ref=sr_1_3?dchild=1&keywords=iphone&qid=1622517156&sr=8-3
+2021-06-01 15:46:29,406  linker.py   INFO  Valid URL https://www.amazon.ca/Apple-iPhone-XR-Fully-Unlocked/dp/B07P978C2R/ref=sr_1_13?dchild=1&keywords=iphone&qid=1622517156&sr=8-13
+2021-06-01 15:46:29,410  urllib3.connectionpool  DEBUG  Starting new HTTPS connection (1): www.amazon.ca:443
+2021-06-01 15:46:29,810  urllib3.connectionpool  DEBUG  https://www.amazon.ca:443 "GET /Apple-iPhone-Max-Smartphone-Refurbished/dp/B07K8RNW7H/ref=sr_1_3?dchild=1&keywords=iphone&qid=1622517156&sr=8-3 HTTP/1.1" 200 None
+2021-06-01 15:46:31,047  scraper.py   INFO  Apple iPhone Xs Max, 64GB, Space Gray - Fully Unlocked (Renewed)
+2021-06-01 15:46:31,052  scraper.py   INFO  $609.99
+2021-06-01 15:46:31,054  urllib3.connectionpool  DEBUG  Starting new HTTPS connection (1): www.amazon.ca:443
+2021-06-01 15:46:31,429  urllib3.connectionpool  DEBUG  https://www.amazon.ca:443 "GET /Apple-iPhone-XR-Fully-Unlocked/dp/B07P978C2R/ref=sr_1_13?dchild=1&keywords=iphone&qid=1622517156&sr=8-13 HTTP/1.1" 200 None
+2021-06-01 15:46:32,987  scraper.py   INFO  Apple iPhone XR, 64GB, White - Fully Unlocked (Renewed)
+2021-06-01 15:46:32,992  scraper.py   INFO  $499.99
+2021-06-01 15:46:55,885  requirements.py  ERROR  b"ERROR: Could not find a version that satisfies the requirement pprint (from -r requirements/requirements.txt (line 4)) (from versions: none)\r\nERROR: No matching distribution found for pprint (from -r requirements/requirements.txt (line 4))\r\nWARNING: You are using pip version 19.3.1; however, version 21.1.2 is available.\r\nYou should consider upgrading via the 'python -m pip install --upgrade pip' command.\r\n"
+2021-06-01 15:46:56,259  linker.py   INFO  Valid URL https://www.amazon.ca/Apple-iPhone-Max-Smartphone-Refurbished/dp/B07K8RNW7H/ref=sr_1_3?dchild=1&keywords=iphone&qid=1622517156&sr=8-3
+2021-06-01 15:46:56,259  linker.py   INFO  Valid URL https://www.amazon.ca/Apple-iPhone-XR-Fully-Unlocked/dp/B07P978C2R/ref=sr_1_13?dchild=1&keywords=iphone&qid=1622517156&sr=8-13
+2021-06-01 15:46:56,264  urllib3.connectionpool  DEBUG  Starting new HTTPS connection (1): www.amazon.ca:443
+2021-06-01 15:46:56,675  urllib3.connectionpool  DEBUG  https://www.amazon.ca:443 "GET /Apple-iPhone-Max-Smartphone-Refurbished/dp/B07K8RNW7H/ref=sr_1_3?dchild=1&keywords=iphone&qid=1622517156&sr=8-3 HTTP/1.1" 200 None
+2021-06-01 15:46:58,084  scraper.py   INFO  Apple iPhone Xs Max, 64GB, Space Gray - Fully Unlocked (Renewed)
+2021-06-01 15:46:58,088  scraper.py   INFO  $609.99
+2021-06-01 15:46:58,090  urllib3.connectionpool  DEBUG  Starting new HTTPS connection (1): www.amazon.ca:443
+2021-06-01 15:46:58,453  urllib3.connectionpool  DEBUG  https://www.amazon.ca:443 "GET /Apple-iPhone-XR-Fully-Unlocked/dp/B07P978C2R/ref=sr_1_13?dchild=1&keywords=iphone&qid=1622517156&sr=8-13 HTTP/1.1" 200 None
+2021-06-01 15:46:59,662  scraper.py   INFO  Apple iPhone XR, 64GB, White - Fully Unlocked (Renewed)
+2021-06-01 15:46:59,667  scraper.py   INFO  $499.99
+2021-06-01 15:47:48,974  requirements.py  ERROR  b"ERROR: Could not find a version that satisfies the requirement pprint (from -r requirements/requirements.txt (line 4)) (from versions: none)\r\nERROR: No matching distribution found for pprint (from -r requirements/requirements.txt (line 4))\r\nWARNING: You are using pip version 19.3.1; however, version 21.1.2 is available.\r\nYou should consider upgrading via the 'python -m pip install --upgrade pip' command.\r\n"
+2021-06-01 15:47:49,341  linker.py   INFO  Valid URL https://www.amazon.ca/Apple-iPhone-Max-Smartphone-Refurbished/dp/B07K8RNW7H/ref=sr_1_3?dchild=1&keywords=iphone&qid=1622517156&sr=8-3
+2021-06-01 15:47:49,341  linker.py   INFO  Valid URL https://www.amazon.ca/Apple-iPhone-XR-Fully-Unlocked/dp/B07P978C2R/ref=sr_1_13?dchild=1&keywords=iphone&qid=1622517156&sr=8-13
+2021-06-01 15:47:49,345  urllib3.connectionpool  DEBUG  Starting new HTTPS connection (1): www.amazon.ca:443
+2021-06-01 15:47:49,792  urllib3.connectionpool  DEBUG  https://www.amazon.ca:443 "GET /Apple-iPhone-Max-Smartphone-Refurbished/dp/B07K8RNW7H/ref=sr_1_3?dchild=1&keywords=iphone&qid=1622517156&sr=8-3 HTTP/1.1" 200 None
+2021-06-01 15:47:51,409  scraper.py   INFO  Apple iPhone Xs Max, 64GB, Space Gray - Fully Unlocked (Renewed)
+2021-06-01 15:47:51,416  scraper.py   INFO  $609.99
+2021-06-01 15:47:51,419  urllib3.connectionpool  DEBUG  Starting new HTTPS connection (1): www.amazon.ca:443
+2021-06-01 15:47:51,899  urllib3.connectionpool  DEBUG  https://www.amazon.ca:443 "GET /Apple-iPhone-XR-Fully-Unlocked/dp/B07P978C2R/ref=sr_1_13?dchild=1&keywords=iphone&qid=1622517156&sr=8-13 HTTP/1.1" 200 None
+2021-06-01 15:47:53,150  scraper.py   INFO  Apple iPhone XR, 64GB, White - Fully Unlocked (Renewed)
+2021-06-01 15:47:53,158  scraper.py   INFO  $499.99

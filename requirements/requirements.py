@@ -12,21 +12,21 @@ from log import logger
 
 
 def require(requirement_file):
-    log =  logger.get_logger('requirements.py')
+    LOG =  logger.get_logger('requirements.py')
     cmd_command =  [ 'pip  install  -r ', requirement_file]
     try:
         result = subprocess.Popen([sys.executable, "-m", cmd_command], stdout=subprocess.DEVNULL, stderr = subprocess.PIPE)
         process_output , process_error =  result.communicate()
         if process_error:     
             if (process_error.decode("utf-8").startswith("WARNING: ") ):
-                 log.info(process_error)
+                 LOG.info(process_error)
             else:
-                log.error(process_error)
+                LOG.error(process_error)
         if process_output:
-            log.info(process_output)
+            LOG.info(process_output)
 
     except OSError as e:
-           log.error(e.args)
+           LOG.error(e.args)
            raise e
     except Exception as e:
         raise e
